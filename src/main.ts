@@ -1,6 +1,6 @@
 /*
 Författare: Leander Norberg
-Projketnamn: Moment 1.2
+Projektnamn: Moment 1.2
 Beskrivning: Praktisk laboration utvecklat i samband med kursen 
 Programmering i TypeScript (DT208G ) vid mittuniversitetet, VT2025 
 */
