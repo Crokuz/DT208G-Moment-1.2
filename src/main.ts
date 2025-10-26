@@ -53,7 +53,7 @@ function addCourse(event: Event) {
 
     //Den nya kursen sparas i arrayen
     courses.push(newCourse);
-    //Funktionen "displayCourses" Kallas för att visa information om kurserna
+    //Funktionen "displayCourses" kallas för att visa information om kurserna
     displayCourses();
     //Formuläret nollställs
     (event.target as HTMLFormElement).reset();

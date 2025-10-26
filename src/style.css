@@ -19,12 +19,6 @@ header {
     width: 100%;
     min-height: 5em;
     background-color: black;
-
-    display: flex;
-    align-items: baseline; 
-    padding-left: 1em;
-    gap: 1em;
-    box-sizing: border-box;
 }
 
 header p, footer p {
@@ -32,13 +26,11 @@ header p, footer p {
 }
 
 footer {
-    width: 100%;
-    height: 10em;
     background-color: black;
-
     display: flex;
     align-items: center; 
     justify-content: center;
+    padding: 5em 0;
 }
 
 footer p {
@@ -51,10 +43,11 @@ footer p {
 }
 
 h1 {
-    margin: 0;
+    margin: 0 auto;
     color: white;
     font-family: 'Open Sans';
     font-size: 3em;
+    width: 60vw;
 }
 
 h2 {
@@ -121,20 +114,27 @@ form input {
     background-color: rgb(243, 207, 0);
 }
 
-#main {
+main {
     flex: 1;
     width: 100%;
     padding: 5em 0em;
 }
 
-#syllabus {
-    overflow-x: auto;
+.contentWrapper {
+  margin: 0 auto;
+  width: 60vw;
 }
 
-.contentWrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  width: 90%;
+@media screen and (max-width: 1600px){
+    .contentWrapper, h1 {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .contentWrapper, h1 {
+        width: 90vw;
+    }
 }
 
 @media screen and (max-width: 600px){
